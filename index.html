@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Fit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white" style="background-image: url('footer-bg.jpg'); background-size: cover; background-position: center;">
+
+    <!-- Header -->
+    <header class="flex justify-between items-center p-4 bg-gray-100 shadow-md">
+        <img src="logo.png" alt="Gym Logo" class="h-16"> 
+        <nav class="ml-auto">
+            <ul class="flex gap-8 text-lg text-gray-700">
+                <li><a href="#home" class="hover:text-gray-500">Home</a></li>
+                <li><a href="#programs" class="hover:text-gray-500">Programs</a></li>
+                <li><a href="#about" class="hover:text-gray-500">About</a></li>
+                <li><a href="#footer" class="hover:text-gray-500">Contact</a></li> <!-- Updated Contact Link -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="relative text-center py-24 px-6 bg-cover bg-center text-white" style="background-image: url('hero-banner.jpg');">
+        <div class="bg-black bg-opacity-50 p-10 rounded-lg inline-block">
+            <h2 class="text-5xl font-extrabold">Transform Your Body with <span class="text-gray-300">Elevate Fit</span></h2>
+            <p class="text-lg mt-4 max-w-2xl mx-auto">Join us to achieve your fitness goals with expert trainers and structured programs tailored for you.</p>
+            <div class="mt-6">
+                <a href="http://localhost/PandeyyProject/login.php">
+
+                <button class="bg-gray-300 text-black px-6 py-3 rounded-lg hover:bg-gray-400 font-bold">Get Started</button>
+                 </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="py-20 px-6 bg-white text-center">
+        <h3 class="text-4xl font-bold text-gray-800">Our Programs</h3>
+        <p class="text-lg text-gray-600 mt-2 max-w-3xl mx-auto">Discover our wide range of training programs designed for every fitness level.</p>
+        <div class="grid md:grid-cols-3 gap-12 mt-12">
+            <div class="p-8 bg-gray-100 rounded-xl shadow-md transition transform hover:scale-105">
+                <img src="yoga.jpg" alt="Yoga" class="h-40 w-full object-cover rounded-md mb-4">
+                <h4 class="text-2xl font-semibold text-black">Yoga</h4>
+                <p class="text-gray-600 mt-3">Improve flexibility and achieve mental peace.</p>
+            </div>
+            <div class="p-8 bg-gray-100 rounded-xl shadow-md transition transform hover:scale-105">
+                <img src="weight-training.jpg" alt="Weight Training" class="h-40 w-full object-cover rounded-md mb-4">
+                <h4 class="text-2xl font-semibold text-black">Weight Training</h4>
+                <p class="text-gray-600 mt-3">Build strength with expert trainers and structured workouts.</p>
+            </div>
+            <div class="p-8 bg-gray-100 rounded-xl shadow-md transition transform hover:scale-105">
+                <img src="cardio.jpg" alt="Cardio" class="h-40 w-full object-cover rounded-md mb-4">
+                <h4 class="text-2xl font-semibold text-black">Cardio</h4>
+                <p class="text-gray-600 mt-3">Boost endurance with high-energy sessions.</p>
+            </div>
+            <div class="p-8 bg-gray-100 rounded-xl shadow-md transition transform hover:scale-105">
+                <img src="zumba.jpg" alt="Zumba" class="h-40 w-full object-cover rounded-md mb-4">
+                <h4 class="text-2xl font-semibold text-black">Zumba</h4>
+                <p class="text-gray-600 mt-3">Fun dance-based workouts to improve fitness.</p>
+            </div>
+            <div class="p-8 bg-gray-100 rounded-xl shadow-md transition transform hover:scale-105">
+                <img src="crossfit.jpg" alt="CrossFit" class="h-40 w-full object-cover rounded-md mb-4">
+                <h4 class="text-2xl font-semibold text-black">CrossFit</h4>
+                <p class="text-gray-600 mt-3">High-intensity functional fitness training.</p>
+            </div>
+            <div class="p-8 bg-gray-100 rounded-xl shadow-md transition transform hover:scale-105">
+                <img src="flexibility.jpg" alt="Flexibility & Recovery" class="h-40 w-full object-cover rounded-md mb-4">
+                <h4 class="text-2xl font-semibold text-black">Flexibility & Recovery</h4>
+                <p class="text-gray-600 mt-3">Sessions designed to enhance mobility and recovery.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 text-center text-white bg-cover bg-center" style="background-image: url('about-bg.jpg');">
+        <div class="bg-black bg-opacity-70 p-10 rounded-lg">
+            <h3 class="text-4xl font-bold">About Us</h3>
+            <p class="text-lg mt-4 max-w-3xl mx-auto">Elevate Fit is dedicated to helping individuals achieve their fitness goals through expert guidance, advanced facilities, and personalized programs.</p>
+            <h4 class="text-2xl font-semibold mt-8">FAQs</h4>
+            <div class="text-left max-w-3xl mx-auto mt-4">
+                <p class="font-bold">Q: What are the gym's operating hours?</p>
+                <p class="text-gray-300">A: We are open from 5 AM to 11 PM every day.</p>
+                <p class="font-bold mt-4">Q: Do you offer personal training sessions?</p>
+                <p class="text-gray-300">A: Yes, we offer one-on-one personal training with certified trainers.</p>
+                <p class="font-bold mt-4">Q: Is there a trial membership available?</p>
+                <p class="text-gray-300">A: Yes, we offer a 7-day free trial for new members.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center text-gray-400 py-10 bg-black">
+        <p>&copy; 2025 Elevate Fit. All Rights Reserved.</p>
+        <p class="mt-2">🌐 Follow us on 
+            <a href="#" class="text-gray-300 hover:underline">Facebook</a>, 
+            <a href="#" class="text-gray-300 hover:underline">Instagram</a>, 
+            <a href="#" class="text-gray-300 hover:underline">Twitter</a>
+        </p>
+        <p class="mt-4">📞 Contact: +1 234 567 890</p>
+        <p>📧 Email: contact@elevatefit.com</p>
+    </footer>
+
+
+</body>
+</html>
